@@ -1,0 +1,12 @@
+cd ~/Projects/openclaw
+
+# See current status
+git status
+
+# Pull latest changes safely
+git pull --rebase
+
+# After updating source
+pnpm install
+pnpm build
+pnpm ui:build
